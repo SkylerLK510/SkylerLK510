@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Question. Measure. Refine.</title>
+  <desc id="desc">Header for Skyler Kendrick's working notes on models, measurements and systems. The branching lines are an illustration, not data.</desc>
+  <defs>
+    <pattern id="grid" width="48" height="42" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V42" fill="none" stroke="#2a424d" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="16" fill="#101e2a"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" letter-spacing="-2" fill="#eff3e9">
+    <text x="42" y="122">Question.</text>
+    <text x="42" y="202">Measure. Refine.</text>
+  </g>
+  <text x="45" y="258" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#a7b8bd">Models, measurements &amp; systems</text>
+  <g transform="translate(175 26.1) scale(0.85)">
+    <rect x="700" y="78" width="456" height="192" fill="url(#grid)"/>
+    <path d="M700 174H1156" stroke="#52717c" stroke-width="1" stroke-dasharray="3 7" vector-effect="non-scaling-stroke"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M720 174C758 174 763 160 794 165S837 186 871 170S916 133 953 142S1011 115 1043 126S1105 103 1142 85" stroke="#73d2bd" stroke-width="2.5" vector-effect="non-scaling-stroke"/>
+    <path d="M720 174C760 174 770 160 800 163S843 141 879 149S922 181 955 159S1005 147 1038 158S1100 133 1142 141" stroke="#73d2bd" stroke-width="1.5" opacity="0.4" vector-effect="non-scaling-stroke"/>
+    <path d="M720 174C759 174 771 181 801 174S850 188 881 179S926 153 958 174S1006 183 1045 168S1101 183 1142 174" stroke="#a7b8bd" stroke-width="1.5" opacity="0.5" vector-effect="non-scaling-stroke"/>
+    <path d="M720 174C759 174 774 189 804 181S844 204 880 195S926 186 958 202S1007 196 1046 214S1103 202 1142 228" stroke="#f1b56b" stroke-width="2.5" vector-effect="non-scaling-stroke"/>
+    <path d="M720 174C760 174 770 188 803 185S847 212 884 204S929 235 960 222S1010 248 1045 239S1100 252 1142 258" stroke="#f1b56b" stroke-width="1.5" opacity="0.4" vector-effect="non-scaling-stroke"/>
+    </g>
+    <circle cx="720" cy="174" r="13" fill="#101e2a" stroke="#52717c" stroke-width="1"/>
+    <circle cx="720" cy="174" r="5" fill="#eff3e9"/>
+    <circle cx="1142" cy="85" r="5" fill="#73d2bd"/>
+    <circle cx="1142" cy="228" r="5" fill="#f1b56b"/>
+  </g>
+  <path d="M42 298H1158" stroke="#3b515a" stroke-width="1"/>
+  <rect x="42" y="296" width="96" height="4" fill="#73d2bd"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" letter-spacing="1" fill="#a7b8bd">
+    <text x="44" y="337">MACHINE LEARNING / SYSTEMS</text>
+    <text x="1156" y="337" text-anchor="end">ILLUSTRATION, NOT DATA</text>
+  </g>
+</svg>
