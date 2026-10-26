@@ -8,7 +8,7 @@
 
 My interests center on machine learning research and how machine learning can be applied to finance and medicine, where a result is only as good as the assumptions and measurements behind it. I care about accuracy, efficiency and clear code: assumptions stated, bottlenecks measured before they are optimized, and limits written down.
 
-[Selected work](#selected-work) · [In development: Ringo](#in-development)
+[Selected work](#selected-work) · [In development: Ringo and Ringo-IDE](#in-development)
 
 ## Selected work
 
@@ -32,4 +32,10 @@ A reservation application for a marine-research waterfront: a monthly schedule, 
 
 ## In development
 
-**Ringo** is an in-development council-guided harness. Its research reliability is not yet established.
+### [Ringo](https://github.com/SkylerLK510/Ringo) · review and design harness
+
+An in-development council-guided harness that runs existing provider models for repository-aware code review and design proposals. File revisions are marked ready for human review only when executable checks pass and a separate rubric-scoring council recommends them; nothing is applied automatically. Recent work adds hash-checked local releases that need a person's approval, HarBenchmark (twelve synthetic development cases) and a ReviewBench adapter. No HarBenchmark score, official ReviewBench result or quality gain is claimed, and Ringo's research reliability is not yet established.
+
+### [Ringo-IDE](https://github.com/SkylerLK510/Ringo-IDE) · local code-suggestion research
+
+Experimental research toward local code suggestions in an editor. A small code-model baseline and Stanford Hazy Research's Next-Concept Modeling (NCM) are planned behind one interface for comparison; the research finds that the released NCM tasks do not establish code completion. The scaffold in [open PR #1](https://github.com/SkylerLK510/Ringo-IDE/pull/1) has 25 offline tests and a demo that validates a fixed completion against the exact document snapshot and range. There is no editor UI, model inference or training yet, and the main branch holds only the license and a short README.
